@@ -1,0 +1,20 @@
+{
+  "name": "sql-mirror",
+  "version": "0.1.0",
+  "description": "Opiniated consistent SQL migrations using reusable raw SQL chunks",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "sql",
+    "migrations"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "common-tags": "^1.8.2",
+    "topological-sort": "^0.3.0"
+  }
+}
