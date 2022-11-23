@@ -16,6 +16,10 @@
 
 ## ✨ Usage
 
+```sh
+pnpm add -D sql-mirror
+```
+
 ```js
 import { sql, generateSqlFileContent } from "sql-mirror";
 import fs from "fs";
