@@ -28,7 +28,6 @@ import fs from "fs";
 
 const sqlMirrorConfig = {
   extensions: [sql.extension.uuid],
-  functions: [sql.function.updated_at_column],
   tables: [
     {
       name: "user",

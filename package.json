@@ -15,6 +15,10 @@
   "license": "MIT",
   "dependencies": {
     "common-tags": "^1.8.2",
-    "topological-sort": "^0.3.0"
+    "semver": "^7.3.8",
+    "slonik": "^33.0.3",
+    "snake-case": "^3.0.4",
+    "topological-sort": "^0.3.0",
+    "zod": "^3.19.1"
   }
 }

@@ -1,3 +1,5 @@
 node_modules
 migrations
 test.js
+migrationsTest
+migratorTest.js
