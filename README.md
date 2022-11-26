@@ -30,7 +30,7 @@ import { sql, generateSqlFileContent } from "sql-mirror";
 import fs from "fs";
 
 const sqlMirrorConfig = {
-  extensions: [sql.extension.uuid],
+  extensions: [sql.extension["uuid-ossp"]],
   tables: [
     {
       name: "user",
