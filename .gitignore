@@ -3,3 +3,4 @@ migrations
 test.js
 migrationsTest
 migratorTest.js
+sqlmirror.config.js
