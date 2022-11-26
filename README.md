@@ -10,6 +10,7 @@
 
 - Reusable raw SQL chunks
 - Generate up/down raw SQL migrations
+- Migration tool
 - Consistent table id naming & uuid_v4 value
 - Systematic created_at/updated_at columns
 - SQL chunks are automatically correctly sorted via topological order
@@ -17,11 +18,13 @@
 ## ✨ Usage
 
 ### Installation
+
 ```sh
 pnpm add -D sql-mirror
 ```
 
 ### Input
+
 ```js
 import { sql, generateSqlFileContent } from "sql-mirror";
 import fs from "fs";
@@ -102,6 +105,7 @@ fs.writeFileSync(
 ### Output
 
 `migrations/2022-11-23T17:43:34.408Z/up.sql`
+
 ```sql
 -- This file was generated via sql-mirror at 2022-11-23T17:43:34.406Z
 CREATE EXTENSION IF NOT EXISTS "uuid-ossp";
@@ -198,6 +202,7 @@ EXECUTE PROCEDURE updated_at_column();
 ```
 
 `migrations/2022-11-23T17:43:34.408Z/down.sql`
+
 ```sql
 -- This file was generated via sql-mirror at 2022-11-23T17:43:34.406Z
 DROP TRIGGER IF EXISTS "updated_at_on_user" ON "user";
