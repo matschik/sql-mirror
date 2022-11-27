@@ -5,3 +5,4 @@ migrationsTest
 migratorTest.js
 sqlmirror.config.js
 sqlBuilder.js
+archive

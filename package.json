@@ -1,6 +1,6 @@
 {
   "name": "sql-mirror",
-  "version": "0.2.6",
+  "version": "0.3.0",
   "description": "Opiniated consistent SQL migrations using reusable raw SQL chunks",
   "main": "index.js",
   "type": "module",
